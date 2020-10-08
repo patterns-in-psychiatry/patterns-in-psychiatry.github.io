@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Patterns in Psychiatry"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "PiP Lab"
+description              : &description "Magnetic resonance imaging (MRI) brain scans are currently not used for clinical diagnosis or prognosis of psychiatric disorders in individual patients. The reason is the large biological variability in (healthy) brain anatomy, in combination with the subtle and heterogeneous brain abnormalities involved in psychiatric disorders.We aim to make individual predictions from MRI brain scans, using multivariate pattern recognition techniques. This research involves the study of image analysis, (longitudinal) brain data analysis and modeling, group-level statistics, machine learning, healthy brain development and psychiatric disorders including schizophrenia and bipolar disorder. We also investigate the predictive potential of other sources of “Big Data”, such as genetic and clinical data."
+url                      : https://patterns-in-psychiatry.github.io   # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "/patterns-in-psychiatry/patterns-in-psychiatry.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
