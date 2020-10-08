@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "People"
-      url: /people/
+    url: /people/
     
   - title: "Projects"
-     url: /projects/
+    url: /projects/
     
   - title: "Publications"
     url: /publications/
