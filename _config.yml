@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "PiP Lab"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Magnetic resonance imaging (MRI) brain scans are currently not used for clinical diagnosis or prognosis of psychiatric disorders in individual patients. The reason is the large biological variability in (healthy) brain anatomy, in combination with the subtle and heterogeneous brain abnormalities involved in psychiatric disorders.We aim to make individual predictions from MRI brain scans, using multivariate pattern recognition techniques. This research involves the study of image analysis, (longitudinal) brain data analysis and modeling, group-level statistics, machine learning, healthy brain development and psychiatric disorders including schizophrenia and bipolar disorder. We also investigate the predictive potential of other sources of “Big Data”, such as genetic and clinical data."
+  location         : "Utrecht University Medical Center"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : ""
+  googlescholar    : "https://scholar.google.it/citations?user=sSs9gLYAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/patterns-in-psychiatry/"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : ""
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :
@@ -181,9 +181,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -227,15 +224,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
